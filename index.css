@@ -1,0 +1,90 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0c0f11;
+    color: white;
+}
+
+.container {
+    margin:0;
+    padding:0px 300px;
+
+}
+
+#profile-pic {
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+nav {
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin: 0 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #da7756;
+    border-radius: 5px;
+}
+
+.right-links {    
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    padding-top: 100px;
+}
+.shafarik-regular {
+    font-family: "Shafarik", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+.roboto-font {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+  .icon-group {
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+
+#github:hover {
+    color: #238636;
+}
+#instagram:hover {
+    color: #DD2A7B
+}
+#linkedin:hover {
+    color: #0077B5
+}
